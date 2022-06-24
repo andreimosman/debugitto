@@ -1,0 +1,21 @@
+{
+    "name": "andreimosman/debugitto",
+    "description": "Simple but effective remote debug tool.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AndreiMosman\\Debugitto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrei de Oliveira Mosman",
+            "email": "andrei.mosman@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    }
+
+}
