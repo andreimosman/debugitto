@@ -1,13 +1,13 @@
 # debugitto
 
-This is a very simple way to debug PHP applications without generate output directly to the browser.
+This is a very simple way to debug PHP applications without generating output directly to the browser.
 
 ## Installation
 
-### Via docker compose:
+### Via composer:
 
 ```
-docker compose require andreimosman/debugitto
+composer require andreimosman/debugitto
 ```
 
 ### Download
@@ -31,7 +31,7 @@ Debugitto::d('This is my beautiful output');
 // ...
 ```
 
-Of course, you should listen at your `localhost` port `9900` to make it work.
+Of course, you should listen on `localhost` port `9900` to make it work.
 
 You can do it on your machine using netcat:
 
@@ -57,7 +57,7 @@ Debugitto::d('Message sent from the container');
 
 ## print_r by default
 
-The code bellow:
+The code below:
 
 ```
 <?php
@@ -79,7 +79,7 @@ D::d($myVariable);
 Will output:
 
 ```
-My super dupper variable
+My super duper variable
 Array
 (
     [a] => 1
